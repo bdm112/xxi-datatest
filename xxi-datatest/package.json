@@ -1,7 +1,7 @@
 {
   "name": "xxi-datatest",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.1.1",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +9,38 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bold-tea": "^1.1.8",
+    "molex-rollup": "^1.1.2",
+    "monka-salmon": "^1.1.7",
+    "next": "14.2.3",
+    "open-gopad": "^1.1.5",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
-  }
+    "typescript": "^5"
+  },
+  "description": "testing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bdm112/xxi-datatest.git"
+  },
+  "keywords": [
+    "tea",
+    "bdm112"
+  ],
+  "author": "bdm112",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdm112/xxi-datatest/issues"
+  },
+  "homepage": "https://github.com/bdm112/xxi-datatest#readme"
 }
